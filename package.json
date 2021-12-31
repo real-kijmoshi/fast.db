@@ -1,0 +1,25 @@
+{
+  "name": "fast.db",
+  "version": "0.9.7",
+  "description": "",
+  "main": "index.js",
+  "repository": "git+https://github.com/real-kijmoshi/fast.db.git",
+  "scripts": {
+    "auto-test": "node test/index",
+    "test": "node examples/test"
+  },
+  "keywords": [
+    "db",
+    "database",
+    "discord-bot-db",
+    "discord-bot-database"
+  ],
+  "author": "kijmoshi",
+  "license": "MIT",
+  "devDependencies": {
+    "consola": "^2.15.3"
+  },
+  "dependencies": {
+    "better-sqlite3": "^7.4.6"
+  }
+}

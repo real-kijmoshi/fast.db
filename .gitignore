@@ -1,0 +1,6 @@
+*.sqlite
+/test/*
+/test
+package-lock.json
+/example/test.dev.js
+/node_modules
