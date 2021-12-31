@@ -1,5 +1,5 @@
 const DATABASE = require("../index")
-let db = new DATABASE.connection()
+let db = new DATABASE.connection() // or db = DATABASE(options)
 //console.log(db.get("foo")) // --> null
 //
 //db.set("foo", "bar")
