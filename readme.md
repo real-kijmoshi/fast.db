@@ -3,12 +3,12 @@
 ## Installation
 
 ```
-npm i @igorrypniewski/fast.db
+npm i fast.db
 ```
 
 ## Usage
 ```js
-const db = require("@igorrypniewski/fast.db")()
+const db = require("fast.db")()
 
 console.log(db.get("foo")) // --> null
 
